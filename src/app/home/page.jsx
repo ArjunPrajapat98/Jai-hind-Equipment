@@ -134,21 +134,15 @@ const Home = () => {
     ];
 
     const youTubeUrls = [
-        {
-            videoId: 'dQw4w9WgXcQ',
-            value: 1,
-        },
-        {
-            videoId: 'dQw4w9WgXcQ',
-            value: 2,
-        },
-        {
-            videoId: 'dQw4w9WgXcQ',
-            value: 3,
-        },
+        { videoId: 'd0SgvPajKtw', value: 1 },
+        { videoId: 'g-XszSubUP0', value: 2 },
+        { videoId: 'o-kKthw8p0g', value: 3 },
+        { videoId: 'ar23o4CdLJI', value: 4 },
+        { videoId: 'rBo2Cdil5gQ', value: 5 },
+        { videoId: 'vxAENSLzGCM', value: 6 },
+        { videoId: 'Ujy1hOmlr2w', value: 7 },
+        { videoId: 'g92VyClZRAs', value: 8 },
     ]
-
-
 
     return (
         <>
@@ -235,7 +229,7 @@ const Home = () => {
                                             <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
                                             <span className="text-[12px] font-medium">FRESH FROM OUR FARM</span>
                                         </div>
-                                        <h2 className="text-[26px] lg:text-[40px] my-[.5rem] philosopher-bold leading-normal lg:leading-14 text-center lg:text-left">Produce Categories</h2>
+                                        <h2 className="text-[26px] lg:text-[40px] my-[.5rem] philosopher-bold leading-normal lg:leading-14 text-center lg:text-left">Products Categories</h2>
 
                                         <div className="prdc_ctg_desc py-2">
                                             <p>Apparently we had reached a great height in the atmosphere, for the sky was a</p>

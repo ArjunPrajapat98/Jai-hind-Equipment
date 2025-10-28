@@ -15,21 +15,21 @@ const Footer = () => {
             <div className="flex flex-wrap gap-7 max-w-[1140px] mx-auto">
               <div className='w-full sm:w-[calc(50%-14px)] md:w-[calc(33.33%-18.67px)] lg:w-[calc(33.33%-18.67px)] my-[0px] sm:my-[50px] md:my-[100px]'>
                 <div className='__ttcmColum'>
-                  <h5>Store Information</h5>
+                  <h5> Information </h5>
                   <ul>
                     <li className='__snpxD mb-4 '>
                       <span className='pt-1.5 leading-normal'><FaLocationDot /></span>
-                      <div> 361/14 Tarana, District Ujjain <br/> Madhya Pradesh India, 456665 </div>
+                      <div> Kshipra District Indore <br /> Madhya Pradesh India, 453771 </div>
                     </li>
 
                     <li className='__snpxD mb-4 '>
                       <span className='pt-1.5 leading-normal'><IoIosCall /></span>
-                      <div> <Link href='tel:+91 8889114443'> +91 8889114443 </Link> </div>
+                      <div> <Link href='tel:+91 8305033403'> +91 8305033403 </Link> </div>
                     </li>
 
                     <li className='__snpxD mb-4 '>
                       <span className='pt-1.5 leading-normal'><FaEnvelope /></span>
-                      <div> <Link href='mailto:info@synergyoversea.com'> info@synergyoversea.com </Link> </div>
+                      <div> <Link href='mailto:rahulprajapat02525@gmail.com'> rahulprajapat02525@gmail.com </Link> </div>
                     </li>
                   </ul>
                 </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className='w-full md:w-[calc(41.33%-18.67px)] lg:w-[calc(33.33%-18.67px)] mb-[50px] md:mb-[100px]'>
+              {/* <div className='w-full md:w-[calc(41.33%-18.67px)] lg:w-[calc(33.33%-18.67px)] mb-[50px] md:mb-[100px]'>
                 <div className='newletter-subscribe'>
                   <div className='newletter-container'>
                     <div className='nww_bx'>
@@ -87,7 +87,31 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
+              </div> */}
+
+              <div className='w-full md:w-[calc(41.33%-18.67px)] lg:w-[calc(33.33%-18.67px)]'>
+                <iframe
+                  style={{ width: "100%", height: "98%" }}
+                  frameBorder={0}
+                  scrolling="no"
+                  marginHeight="0"
+                  marginWidth="0"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4449.40417502716!2d75.95230588400248!3d22.920465384902556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631a6713c45b6f%3A0x19a19818080cd48b!2sPuwardadai%2C%20Madhya%20Pradesh%20453771!5e0!3m2!1sen!2sin!4v1761623939033!5m2!1sen!2sin"
+                  // src="https://maps.google.com/maps?width=720&height=600&hl=en&q=361/14%20Tarana%2C%20District%20Ujjain%2C%20Madhya%20Pradesh%2C%20India%2C%20456665&t=&z=17&ie=UTF8&iwloc=B&output=embed"
+                >
+                  <a href="https://www.gps.ie/">Jai Hind Equipment</a>
+                </iframe>
+                {/* <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4449.40417502716!2d75.95230588400248!3d22.920465384902556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631a6713c45b6f%3A0x19a19818080cd48b!2sPuwardadai%2C%20Madhya%20Pradesh%20453771!5e0!3m2!1sen!2sin!4v1761623939033!5m2!1sen!2sin"
+                  width="600"
+                  height="450"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe> */}
               </div>
+
             </div>
           </div>
         </div>
@@ -96,16 +120,16 @@ const Footer = () => {
           <div className='__mainContainer'>
             <div className="flex items-center">
               <div className="w-1/2">
-                <p> Powered By <Link href='https://www.synergyoversea.com/'> synergyoversea.com </Link> © 2025</p>
+                <p> Powered By <Link href='https://www.synergyoversea.com/'> Jai Hind Equipment </Link> © 2025</p>
               </div>
 
               <div className="w-1/2">
                 <div className='follow-us'>
                   <ul className='flex justify-end items-center'>
-                    <li className='facebook'><Link href='#'target='_blank'><FaYoutube /></Link></li>
-                    <li className='facebook'><Link href='#'target='_blank'><FaFacebookF /></Link></li>
-                    <li className='twitter'><Link href='#'target='_blank'><FaSquareXTwitter /></Link></li>
-                    <li className='instagram'><Link href='#'target='_blank'><FaInstagram /></Link></li>
+                    <li className='facebook'><Link href='#' target='_blank'><FaYoutube /></Link></li>
+                    <li className='facebook'><Link href='#' target='_blank'><FaFacebookF /></Link></li>
+                    <li className='twitter'><Link href='#' target='_blank'><FaSquareXTwitter /></Link></li>
+                    <li className='instagram'><Link href='#' target='_blank'><FaInstagram /></Link></li>
                   </ul>
                 </div>
               </div>

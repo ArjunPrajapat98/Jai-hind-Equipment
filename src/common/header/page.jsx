@@ -161,11 +161,11 @@ const Header = () => {
 
                     {/* WhatsApp / Call */}
                     <div className="hidden md:block">
-                        <Link href="tel:8889114443" className="flex items-center gap-1">
+                        <Link href="tel:8305033403" className="flex items-center gap-1">
                             <span className="text-[#25D366] text-lg flex mb-0.5">
                                 <FaWhatsapp />
                             </span>
-                            <span className="text-base leading-4">8889114443</span>
+                            <span className="text-base leading-4">8305033403</span>
                         </Link>
                     </div>
 
