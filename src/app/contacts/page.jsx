@@ -1,3 +1,5 @@
+import { CommonInput } from '@/common/CommonInput'
+import { CommonTextArea } from '@/common/CommonTextArea'
 import Link from 'next/link'
 import React from 'react'
 
@@ -10,12 +12,12 @@ const Contacts = () => {
             <div className="mb-6">
               <Link href='/'><span className="text-[#0066ff]">Home</span></Link>
               <span className="mx-2 text-gray-400">&gt;</span>
-              <span className="text-gray-900 font-medium">Contact Us</span>
+              <span className="text-gray-900 font-medium"> Enquiry Now</span>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h1 className="text-2xl font-bold text-gray-900 mb-6">Jai Hind Equipment Pvt. Ltd.</h1>
+              <div className="bg-[#f1f1f1] rounded-lg shadow-md p-6">
+                <h1 className="text-2xl font-semibold text-gray-500 mb-6">Jai Hind Equipment Pvt. Ltd.</h1>
 
                 <div className="space-y-6">
                   <div>
@@ -102,67 +104,37 @@ const Contacts = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Your Name *
-                    </label>
-                    <input
+                    <CommonInput
                       type="text"
-                      id="name"
-                      placeholder="Your Name"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      required
+                      label="Name"
+                      starRed={true}
+                      placeholder="Name"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
+                    <CommonInput
+                      type="text"
+                      label="Email"
+                      starRed={true}
                       placeholder="Email"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      required
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="mobile" className="block text-sm font-medium text-gray-700 mb-2">
-                      Mobile *
-                    </label>
-                    <div className="flex">
-                      {/* <div className="flex items-center px-3 border border-r-0 border-gray-300 rounded-l-md bg-gray-50">
-                        <span className="text-gray-700">+91</span>
-                      </div> */}
-                      {/* <input
-                        type="tel"
-                        id="mobile"
-                        placeholder="Mobile"
-                        className="flex-1 px-3 py-2 border border-gray-300 rounded-r-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        required
-                      /> */}
-                      <input
-                        type="text"
-                        id="mobile"
-                        placeholder="mobile"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        required
-                      />
-                    </div>
+                    <CommonInput
+                      type="text"
+                      label="Mobile"
+                      starRed={true}
+                      placeholder="Mobile"
+                    />
                   </div>
 
                   <div>
-                    <label htmlFor="enquiry" className="block text-sm font-medium text-gray-700 mb-2">
-                      Enquiry Details *
-                    </label>
-                    <textarea
-                      id="enquiry"
-                      rows={4}
+                    <CommonTextArea
+                      label="Enquiry Details"
                       placeholder="Your Requirement"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-vertical"
-                      required
-                    ></textarea>
+                    />
                   </div>
 
                   <div className="flex space-x-4 pt-4">
