@@ -99,9 +99,11 @@ const Header = () => {
 
             <header className="__stickedHeader">
                 <div className="__mainContainer flex items-center justify-between py-3 min-h-[65px]">
-                    <span className="text-lg font-semibold text-[#0066ff]">
-                        Jai Hind Equipment
-                    </span>
+                    <a href='/'>
+                        <span className="text-lg font-semibold text-[#0066ff]">
+                            Jai Hind Equipment
+                        </span>
+                    </a>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:block">
@@ -138,8 +140,8 @@ const Header = () => {
                             </li>
                             <li className="px-1 lg:px-2">
                                 <Link
-                                    href="#"
-                                    onClick={(e) => handleLinkClick(e, "#about")}
+                                    href="/about"
+                                    // onClick={(e) => handleLinkClick(e, "#about")}
                                     className={`__navLinks ${activeSection === "about" ? "text-[#62a403]" : ""
                                         }`}
                                 >
@@ -148,8 +150,8 @@ const Header = () => {
                             </li>
                             <li className="px-1 lg:px-2">
                                 <Link
-                                    href="#"
-                                    onClick={(e) => handleLinkClick(e, "#enquiry")}
+                                    href="/contacts"
+                                    // onClick={(e) => handleLinkClick(e, "#enquiry")}
                                     className={`__navLinks ${activeSection === "enquiry" ? "text-[#62a403]" : ""
                                         }`}
                                 >
@@ -225,8 +227,8 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <Link
-                                            href="#"
-                                            onClick={(e) => handleLinkClick(e, "#about")}
+                                            href="/about"
+                                            // onClick={(e) => handleLinkClick(e, "#about")}
                                             className={`text-[16px] font-normal ${activeSection === "about" ? "text-[#62a403]" : ""
                                                 }`}
                                         >
@@ -235,8 +237,8 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <Link
-                                            href="#"
-                                            onClick={(e) => handleLinkClick(e, "#enquiry")}
+                                            href="/contacts"
+                                            // onClick={(e) => handleLinkClick(e, "#enquiry")}
                                             className={`text-[16px] font-normal ${activeSection === "enquiry" ? "text-[#62a403]" : ""
                                                 }`}
                                         >
