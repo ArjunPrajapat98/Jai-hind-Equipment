@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className='__ttcmColum'>
                   <h5> Information </h5>
                   <ul>
-                    <li className='__snpxD mb-4 '>
+                    <li className='__snpxD mb-4'>
                       <span className='pt-1.5 leading-normal'><FaLocationDot /></span>
                       <div> Kshipra District Indore <br /> Madhya Pradesh India, 453771 </div>
                     </li>
@@ -38,22 +38,25 @@ const Footer = () => {
               <div className='w-full sm:w-[calc(50%-14px)] md:w-[calc(25.33%-18.67px)] lg:w-[calc(33.33%-18.67px)] my-[0px] sm:my-[50px] md:my-[100px]'>
                 <div className='__ttcmColum'>
                   <h5>Extras</h5>
-
                   <ul>
                     <li className='__snpxD '>
-                      <div><Link href="/#ourProduct"> Products </Link> </div>
+                      <div><Link href="/"> Home </Link> </div>
                     </li>
 
                     <li className='__snpxD '>
-                      <div><Link href="/#ourService"> Services </Link> </div>
+                      <div><Link href="/"> Products </Link> </div>
                     </li>
 
                     <li className='__snpxD '>
-                      <div><Link href='#'> About Us </Link> </div>
+                      <div><Link href="/"> Services </Link> </div>
                     </li>
 
                     <li className='__snpxD '>
-                      <div><Link href='#'>Enquiry</Link> </div>
+                      <div><Link href="/about"> About Us </Link> </div>
+                    </li>
+
+                    <li className='__snpxD '>
+                      <div><Link href="/contacts">Enquiry</Link> </div>
                     </li>
 
                     {/* <li className='__snpxD '>

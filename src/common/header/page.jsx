@@ -1,5 +1,4 @@
 "use client";
-
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { useMenu } from '../MenuProvider';
@@ -11,8 +10,6 @@ const Header = () => {
     const [activeSection, setActiveSection] = useState("home");
     const pathname = usePathname();
 
-
-    // ✅ Track which section is visible
     useEffect(() => {
         const sections = document.querySelectorAll("section[id]");
         const handleScroll = () => {
@@ -30,7 +27,6 @@ const Header = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    // ✅ Smooth scroll to section when clicking link
     const handleLinkClick = (e, id) => {
         e.preventDefault();
         const section = document.querySelector(id);
@@ -43,8 +39,6 @@ const Header = () => {
 
     return (
         <>
-
-
             <header className="__stickedHeader">
                 <div className="__mainContainer flex items-center justify-between py-3 min-h-[65px]">
                     <a href='/'>
@@ -68,7 +62,7 @@ const Header = () => {
                             </li>
                             <li className="px-1 lg:px-2">
                                 <Link
-                                    href="/#ourProduct"
+                                    href="/"
                                     onClick={(e) => handleLinkClick(e, "#ourProduct")}
                                     className={`__navLinks ${activeSection === "ourProduct" ? "text-[#62a403]" : ""
                                         }`}
@@ -78,7 +72,7 @@ const Header = () => {
                             </li>
                             <li className="px-1 lg:px-2">
                                 <Link
-                                    href="/#ourService"
+                                    href="/"
                                     onClick={(e) => handleLinkClick(e, "#ourService")}
                                     className={`__navLinks ${activeSection === "ourService" ? "text-[#62a403]" : ""
                                         }`}
@@ -86,7 +80,7 @@ const Header = () => {
                                     Services
                                 </Link>
                             </li>
-                            <li className="px-1 lg:px-2">
+                            {/* <li className="px-1 lg:px-2">
                                 <Link
                                     href="/about"
                                     className={`__navLinks ${pathname === "/about" ? "text-[#62a403]" : ""
@@ -103,7 +97,7 @@ const Header = () => {
                                 >
                                     Enquiry
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 
@@ -171,7 +165,7 @@ const Header = () => {
                                             Services
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link
                                             href="/about"
                                             className={`text-[16px] font-normal ${activeSection === "about" ? "text-[#62a403]" : ""
@@ -188,7 +182,7 @@ const Header = () => {
                                         >
                                             Enquiry
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         )}

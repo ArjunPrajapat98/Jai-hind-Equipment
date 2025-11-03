@@ -4,7 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "animate.css";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
-import { FaArrowLeft, FaArrowRight, FaLongArrowAltRight, FaQuoteLeft, FaRegCircle, FaRegStar, FaSearch, FaShoppingBag, FaStar } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaLongArrowAltRight, FaQuoteLeft, FaRegCircle, FaRegStar, FaSearch, FaShoppingBag, FaStar, FaWhatsapp } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { renderToStaticMarkup } from "react-dom/server";
 import React, { useState } from 'react'
@@ -154,6 +154,15 @@ const Home = () => {
                             renderToStaticMarkup(<AiOutlineRight />),
                         ]}>
                         <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/equipment/premium_photo-1664300969063-b274f727fcad.avif" alt="banner3" />
+                        </div>
+                        <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/equipment/premium_photo-1661818380392-eff80caa5d91.avif" alt="banner3" />
+                        </div>
+                        <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/equipment/Screenshot from 2025-10-30 09-26-30.png" alt="banner3" />
+                        </div>
+                        <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/banners/banner_machine1.webp" alt="banner1" />
                         </div>
                         <div className="owlItems">
@@ -186,10 +195,10 @@ const Home = () => {
                             </div> */}
 
                             <OwlCarousel responsive={youTubeSlides} className="youTubeSlider"
-                            loop
-                            dots={true}
-                            nav={false}
-                            autoplay>
+                                loop
+                                dots={true}
+                                nav={false}
+                                autoplay>
                                 {youTubeUrls?.map((item, index) => {
                                     return (
                                         <div className="owlItems">
@@ -203,7 +212,7 @@ const Home = () => {
 
                             <div className="mt-5">
                                 <div className="text-center">
-                                    <Link href='#!' className=" inline-block cursor-pointer">
+                                    <Link href='/video' className=" inline-block cursor-pointer">
                                         <button className='custom_btn'>
                                             View All Videos
                                             <span className="__lgArrow_icon "> <FaLongArrowAltRight /></span>
@@ -2299,6 +2308,17 @@ const Home = () => {
                     </div>
                 </section>
             </main>
+            <Link href="/contacts">
+                Enquiry
+                <div className="enquiry_now">
+                    <p className="flex btn">
+                        <span className="text-[#25D366] text-lg flex mt-0.5">
+                            <FaWhatsapp />
+                        </span>
+                        Enquiry Now
+                    </p>
+                </div>
+            </Link>
         </>
     )
 }
