@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rating_wrap .shop_review_text {
-  @apply text-[#aeaeae] text-xs font-semibold ml-[7px];
+  @apply text-[#424242] text-xs font-semibold ml-[7px];
 }
 
 .product_title {
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product_price .sale_price {
-  @apply text-[#7fba00] text-base font-semibold pr-1;
+  @apply text-[#015bff] text-base font-semibold pr-1;
 }
 
 .product_price del {
@@ -411,13 +411,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .prdc_ctg_product_img {
-  @apply w-36 h-36 leading-[9rem] bg-transparent lg:bg-[#f7f7f7] text-center cursor-pointer mr-4 rounded-[100%] flex justify-center items-center;
+  @apply w-36 h-36 leading-[9rem] bg-transparent lg:bg-[#f7f7f7] text-center cursor-pointer mr-4 rounded-[5px] flex justify-center items-center;
   transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
   -webkit-transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+.prdc_ctg_product_img img {
+  @apply rounded-[5px];
+}
+
 .prdc_ctg_product_badge span {
-  @apply text-[#6faa27] text-[0.625rem] bg-[#f2f7f3] font-bold uppercase px-[0.8rem] py-[0.4rem] rounded-[50rem];
+  @apply text-[#252020] text-[0.625rem] bg-[#e1e8fc] font-[500] px-[0.8rem] py-[0.4rem] rounded-[50rem];
 }
 
 .store_section_wrap {

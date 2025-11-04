@@ -1,4 +1,5 @@
 'use client'
+import { constant } from '@/constant'
 import Link from 'next/link'
 import { useState } from 'react'
 import { FaLongArrowAltRight } from 'react-icons/fa'
@@ -6,88 +7,7 @@ import { FaLongArrowAltRight } from 'react-icons/fa'
 const VideoSection = () => {
     const [selectedVideo, setSelectedVideo] = useState(null)
 
-    const videos = [
-        {
-            id: 1,
-            title: "Next.js 14 Full Course",
-            description: "Learn Next.js 14 with this complete beginner's tutorial",
-            thumbnail: "https://img.youtube.com/vi/__mSgDEOyv8/maxresdefault.jpg",
-            youtubeId: "__mSgDEOyv8",
-            duration: "2:15:30"
-        },
-        {
-            id: 2,
-            title: "Tailwind CSS in 100 Seconds",
-            description: "Quick introduction to Tailwind CSS utility-first framework",
-            thumbnail: "https://img.youtube.com/vi/mr15Xzb1Ook/maxresdefault.jpg",
-            youtubeId: "mr15Xzb1Ook",
-            duration: "2:20"
-        },
-        {
-            id: 3,
-            title: "React Hooks Explained",
-            description: "Complete guide to React hooks for beginners",
-            thumbnail: "https://img.youtube.com/vi/TNhaISOUy6Q/maxresdefault.jpg",
-            youtubeId: "TNhaISOUy6Q",
-            duration: "45:12"
-        },
-        {
-            id: 4,
-            title: "TypeScript Crash Course",
-            description: "Learn TypeScript fundamentals in this crash course",
-            thumbnail: "https://img.youtube.com/vi/gp5H0Vw39yw/maxresdefault.jpg",
-            youtubeId: "gp5H0Vw39yw",
-            duration: "1:31:22"
-        },
-        {
-            id: 5,
-            title: "Responsive Web Design",
-            description: "Create responsive layouts that work on all devices",
-            thumbnail: "https://img.youtube.com/vi/VQraviuwbzU/maxresdefault.jpg",
-            youtubeId: "VQraviuwbzU",
-            duration: "25:47"
-        },
-        {
-            id: 6,
-            title: "JavaScript Modern Features",
-            description: "Latest JavaScript features you need to know",
-            thumbnail: "https://img.youtube.com/vi/NCwa_xi0Uuc/maxresdefault.jpg",
-            youtubeId: "NCwa_xi0Uuc",
-            duration: "38:15"
-        },
-        {
-            id: 7,
-            title: "CSS Grid vs Flexbox",
-            description: "When to use CSS Grid and when to use Flexbox",
-            thumbnail: "https://img.youtube.com/vi/RSIclWvNTdQ/maxresdefault.jpg",
-            youtubeId: "RSIclWvNTdQ",
-            duration: "18:33"
-        },
-        {
-            id: 8,
-            title: "Web Performance Optimization",
-            description: "Tips and tricks to make your website faster",
-            thumbnail: "https://img.youtube.com/vi/9a6eSw4zpmI/maxresdefault.jpg",
-            youtubeId: "9a6eSw4zpmI",
-            duration: "32:45"
-        },
-        {
-            id: 9,
-            title: "Git & GitHub Tutorial",
-            description: "Complete Git and GitHub tutorial for beginners",
-            thumbnail: "https://img.youtube.com/vi/RGOj5yH7evk/maxresdefault.jpg",
-            youtubeId: "RGOj5yH7evk",
-            duration: "46:18"
-        },
-        {
-            id: 10,
-            title: "Deploying Next.js Apps",
-            description: "How to deploy Next.js applications to production",
-            thumbnail: "https://img.youtube.com/vi/ek7jKbHezyo/maxresdefault.jpg",
-            youtubeId: "ek7jKbHezyo",
-            duration: "22:09"
-        }
-    ]
+    
 
     const openVideo = (youtubeId) => {
         setSelectedVideo(youtubeId)
@@ -102,12 +22,12 @@ const VideoSection = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                        Our Videos
+                        Watch Our Product Videos
                     </h2>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    {videos.map((video) => (
+                    {constant.videosPages.map((video) => (
                         <div
                             key={video.id}
                             className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 cursor-pointer group transform hover:-translate-y-1"

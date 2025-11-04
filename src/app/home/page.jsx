@@ -12,6 +12,7 @@ import Link from "next/link";
 import { CommonTabs } from "@/common/commonTabs";
 import { Tab, TabPanel } from "react-tabs";
 import { YouTubeEmbed } from "@/common/youTube_embed";
+import { constant } from "@/constant";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -107,8 +108,8 @@ const Home = () => {
 
     const freshCategory = [
         {
-            name: 'Vegetables',
-            image: '/assets/img/ctg_icon1.png',
+            name: 'Rotavator',
+            image: 'assets/rotaviter/r-01.png',
             count: 40,
         },
         {
@@ -132,17 +133,6 @@ const Home = () => {
             count: 20,
         },
     ];
-
-    const youTubeUrls = [
-        { videoId: 'd0SgvPajKtw', value: 1 },
-        { videoId: 'g-XszSubUP0', value: 2 },
-        { videoId: 'o-kKthw8p0g', value: 3 },
-        { videoId: 'ar23o4CdLJI', value: 4 },
-        { videoId: 'rBo2Cdil5gQ', value: 5 },
-        { videoId: 'vxAENSLzGCM', value: 6 },
-        { videoId: 'Ujy1hOmlr2w', value: 7 },
-        { videoId: 'g92VyClZRAs', value: 8 },
-    ]
 
     return (
         <>
@@ -199,7 +189,7 @@ const Home = () => {
                                 dots={true}
                                 nav={false}
                                 autoplay>
-                                {youTubeUrls?.map((item, index) => {
+                                {constant.youTubeUrls?.map((item, index) => {
                                     return (
                                         <div className="owlItems">
                                             <div key={index} className="w-full ">
@@ -236,12 +226,12 @@ const Home = () => {
                                             <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
                                             <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
                                             <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
-                                            <span className="text-[12px] font-medium">FRESH FROM OUR FARM</span>
+                                            {/* <span className="text-[12px] font-medium">FRESH FROM OUR FARM</span> */}
                                         </div>
                                         <h2 className="text-[26px] lg:text-[40px] my-[.5rem] philosopher-bold leading-normal lg:leading-14 text-center lg:text-left">Products Categories</h2>
 
                                         <div className="prdc_ctg_desc py-2">
-                                            <p>Apparently we had reached a great height in the atmosphere, for the sky was a</p>
+                                            <p>Explore all-in-one farming solutions - Rotavators, Seed Drills, Harrows, Weeders and Sprayers — built to make farming smarter and easier.</p>
                                         </div>
                                     </div>
 
@@ -273,63 +263,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat6.png" />
+                                                            <img src="assets/rotaviter/r-08.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> 3 - 4 feet widths </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">15 - 30 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Mini Rotavator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="w-full sm:w-[calc(50%-12px)]">
-                                                    <div className="prdc_ctg_product_content">
-                                                        <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat7.png" />
-                                                        </div>
-
-                                                        <div className="prdc_ctg_product_text">
-                                                            <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
-                                                            </div>
-                                                            <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
-                                                            </div>
-                                                            <div className="product_content">
-                                                                <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
-                                                                </h3>
-                                                                <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -338,30 +288,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat8.png" />
+                                                            <img src="assets/rotaviter/r-05.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> 5 - 6 feet widths </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">35 - 50 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Standard Rotavator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -370,30 +313,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat9.png" />
+                                                            <img src="assets/rotaviter/r-02.jpg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> 6 - 8 ft widths </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">70-75 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Heavy Rotavator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -402,30 +338,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat10.png" />
+                                                            <img src="assets/rotaviter/r-09.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> 7 - 8 feet widths </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">45-60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Seeder Rotavator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -434,30 +363,48 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat11.png" />
+                                                            <img src="assets/rotaviter/r-11.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> 6 - 9 feet widths </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">70 - 120 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Harrow Rotavator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/rotaviter/r-06.jpeg" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> 6 - 8 feet widths </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">45 - 65 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Reversible Rotavator</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2309,7 +2256,6 @@ const Home = () => {
                 </section>
             </main>
             <Link href="/contacts">
-                Enquiry
                 <div className="enquiry_now">
                     <p className="flex btn">
                         <span className="text-[#25D366] text-lg flex mt-0.5">
