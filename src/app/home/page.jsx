@@ -110,27 +110,42 @@ const Home = () => {
         {
             name: 'Rotavator',
             image: 'assets/rotaviter/r-01.png',
-            count: 40,
+            count: 6,
         },
         {
-            name: 'Fresh Fruits',
-            image: '/assets/img/ctg_icon2.png',
-            count: 30,
+            name: 'Cultivator',
+            image: 'assets/cultivator/c-04.png',
+            count: 6,
         },
         {
-            name: 'Beverages',
-            image: '/assets/img/ctg_icon3.png',
-            count: 30,
+            name: 'Plough (Plow/Hal)',
+            image: '/assets/plumb/p-02.jpeg',
+            count: 6,
         },
         {
-            name: 'Babies & Kids',
+            name: 'Seed Fertilizer Drill',
             image: '/assets/img/ctg_icon4.png',
-            count: 10,
+            count: 6,
         },
         {
-            name: 'Frozen Foods',
+            name: 'Disc Harrow',
             image: '/assets/img/ctg_icon5.png',
-            count: 20,
+            count: 6,
+        },
+        {
+            name: 'Power Weeder',
+            image: '/assets/img/ctg_icon5.png',
+            count: 6,
+        },
+        {
+            name: 'Land Leveler',
+            image: '/assets/img/ctg_icon5.png',
+            count: 6,
+        },
+        {
+            name: 'Disc Harrow',
+            image: '/assets/img/ctg_icon5.png',
+            count: 6,
         },
     ];
 
@@ -422,63 +437,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat6.png" />
+                                                            <img src="assets/cultivator/c-02.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Breaking up tough soil </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">30 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Rigid Tyne Cultivator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="w-full sm:w-[calc(50%-12px)]">
-                                                    <div className="prdc_ctg_product_content">
-                                                        <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat7.png" />
-                                                        </div>
-
-                                                        <div className="prdc_ctg_product_text">
-                                                            <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
-                                                            </div>
-                                                            <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
-                                                            </div>
-                                                            <div className="product_content">
-                                                                <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
-                                                                </h3>
-                                                                <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -487,30 +462,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat8.png" />
+                                                            <img src="assets/cultivator/c-05.jpg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Uneven fields, Stony soils </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">40 - 75 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Spring Cultivator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -519,30 +487,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat9.png" />
+                                                            <img src="assets/cultivator/c-04.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Breaking up tough soil </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">30 - 90 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Trailed Cultivator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -551,30 +512,22 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat10.png" />
+                                                            <img src="assets/cultivator/c-09.avif" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Breaking up tough soil </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">30 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Mounted Cultivator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -583,30 +536,48 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat11.png" />
+                                                            <img src="assets/cultivator/c-06.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Shallow tillage, light soils </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">Deep tillage models</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Sweep Cultivator</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/cultivator/c-07.webp" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Hard, compacted soils </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text"> Higher HP </span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Disc Cultivator</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -624,63 +595,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat6.png" />
+                                                            <img src="assets/plumb/p-03.jpg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Black cotton / Rocky </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">35 - 75 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Disc Plough</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="w-full sm:w-[calc(50%-12px)]">
-                                                    <div className="prdc_ctg_product_content">
-                                                        <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat7.png" />
-                                                        </div>
-
-                                                        <div className="prdc_ctg_product_text">
-                                                            <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
-                                                            </div>
-                                                            <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
-                                                            </div>
-                                                            <div className="product_content">
-                                                                <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
-                                                                </h3>
-                                                                <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -689,30 +620,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat8.png" />
+                                                            <img src="assets/plumb/p-01.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Hard / Medium soil </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Mould Board Plough</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -721,30 +645,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat9.png" />
+                                                            <img src="assets/plumb/p-01.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Soil turning & weed control </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Mould Board Plough</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -753,30 +670,23 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat10.png" />
+                                                            <img src="assets/plumb/p-01.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Soil turning & weed control </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Mould Board Plough</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -785,30 +695,48 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/img/fresh_cat11.png" />
+                                                            <img src="assets/plumb/p-01.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span>Meats</span>
+                                                                <span> Soil turning & weed control </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <ul className="rating_star ul_li">
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className="active"><FaStar /></li>
-                                                                    <li className=""><FaRegStar /></li>
-                                                                </ul>
-                                                                <span className="shop_review_text">( 4.0 )</span>
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Organic Cabbage</Link>
+                                                                    <Link href="#">Mould Board Plough</Link>
                                                                 </h3>
                                                                 <div className="product_price">
-                                                                    <span className="sale_price pe-1">$50.00</span>
-                                                                    <del>$65.00</del>
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-01.webp" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Soil turning & weed control </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Mould Board Plough</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
                                                                 </div>
                                                             </div>
                                                         </div>
