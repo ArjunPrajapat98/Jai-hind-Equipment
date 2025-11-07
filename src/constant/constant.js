@@ -12,83 +12,91 @@ export const constant = {
     videosPages: [
         {
             id: 1,
-            title: "Next.js 14 Full Course",
-            description: "Learn Next.js 14 with this complete beginner's tutorial",
-            thumbnail: "https://img.youtube.com/vi/d0SgvPajKtw/maxresdefault.jpg",
-            youtubeId: "d0SgvPajKtw",
-            duration: "2:15:30"
+            title: "Rotavator Work in Wheat Field | Tractor Rotavator",
+            description: "Rotavator used for seedbed preparation in Indian farms.",
+            thumbnail: "https://i.ytimg.com/vi/7YIeiT7BqXo/hqdefault.jpg",
+            youtubeId: "RGNocqu_RIY",
+            duration: "05:01"
         },
         {
             id: 2,
-            title: "Tailwind CSS in 100 Seconds",
-            description: "Quick introduction to Tailwind CSS utility-first framework",
-            thumbnail: "https://img.youtube.com/vi/mr15Xzb1Ook/maxresdefault.jpg",
-            youtubeId: "g-XszSubUP0",
-            duration: "2:20"
+            title: "Heavy Duty Cultivator Working in Dry Soil",
+            description: "Multi-tine cultivator loosening and aerating compact soil before sowing.",
+            thumbnail: "https://i.ytimg.com/vi/vVpQZAvpE_Q/hqdefault.jpg",
+            youtubeId: "vVpQZAvpE_Q",
+            duration: "03:41"
         },
         {
             id: 3,
-            title: "React Hooks Explained",
-            description: "Complete guide to React hooks for beginners",
-            thumbnail: "https://img.youtube.com/vi/TNhaISOUy6Q/maxresdefault.jpg",
-            youtubeId: "o-kKthw8p0g",
-            duration: "45:12"
+            title: "MB Plough Field Testing | Deep Tillage",
+            description: "Three bottom MB plough used for hard soil inversion and weed control.",
+            thumbnail: "https://i.ytimg.com/vi/d-NB_ICcSwg/hqdefault.jpg",
+            youtubeId: "d-NB_ICcSwg",
+            duration: "05:12"
         },
         {
             id: 4,
-            title: "TypeScript Crash Course",
-            description: "Learn TypeScript fundamentals in this crash course",
-            thumbnail: "https://img.youtube.com/vi/gp5H0Vw39yw/maxresdefault.jpg",
-            youtubeId: "rBo2Cdil5gQ",
-            duration: "1:31:22"
+            title: "Disc Plough in Action | Land Turning",
+            description: "Disc plough working efficiently for deep ploughing and soil mixing.",
+            thumbnail: "https://i.ytimg.com/vi/R7qWjJHNy9I/hqdefault.jpg",
+            youtubeId: "R7qWjJHNy9I",
+            duration: "03:29"
         },
         {
             id: 5,
-            title: "Responsive Web Design",
-            description: "Create responsive layouts that work on all devices",
-            thumbnail: "https://img.youtube.com/vi/VQraviuwbzU/maxresdefault.jpg",
-            youtubeId: "rBo2Cdil5gQ",
-            duration: "25:47"
+            title: "Seed Cum Fertilizer Drill Sowing Wheat",
+            description: "Wheat sowing with accurate seed and fertilizer placement.",
+            thumbnail: "https://i.ytimg.com/vi/fnGxiU9Pv1Q/hqdefault.jpg",
+            youtubeId: "fnGxiU9Pv1Q",
+            duration: "04:10"
         },
         {
             id: 6,
-            title: "JavaScript Modern Features",
-            description: "Latest JavaScript features you need to know",
-            thumbnail: "https://img.youtube.com/vi/NCwa_xi0Uuc/maxresdefault.jpg",
-            youtubeId: "vxAENSLzGCM",
-            duration: "38:15"
+            title: "Super Seeder Making Field Ready After Paddy Harvest",
+            description: "Super seeder handling paddy straws while preparing field for next crop.",
+            thumbnail: "https://i.ytimg.com/vi/7WoYtGIaZmc/hqdefault.jpg",
+            youtubeId: "7WoYtGIaZmc",
+            duration: "06:05"
         },
         {
             id: 7,
-            title: "CSS Grid vs Flexbox",
-            description: "When to use CSS Grid and when to use Flexbox",
-            thumbnail: "https://img.youtube.com/vi/RSIclWvNTdQ/maxresdefault.jpg",
-            youtubeId: "Ujy1hOmlr2w",
-            duration: "18:33"
+            title: "Disc Harrow Leveling Field After Ploughing",
+            description: "Disc harrow breaking soil clods for leveled seedbed formation.",
+            thumbnail: "https://i.ytimg.com/vi/Xs1O9a2w3fU/hqdefault.jpg",
+            youtubeId: "Xs1O9a2w3fU",
+            duration: "02:54"
         },
         {
             id: 8,
-            title: "Web Performance Optimization",
-            description: "Tips and tricks to make your website faster",
-            thumbnail: "https://img.youtube.com/vi/9a6eSw4zpmI/maxresdefault.jpg",
-            youtubeId: "g92VyClZRAs",
-            duration: "32:45"
+            title: "Power Weeder Small Farm Cultivation",
+            description: "Power weeder used for inter-cultivation in horticulture and small farms.",
+            thumbnail: "https://i.ytimg.com/vi/0dxsxFtAznc/hqdefault.jpg",
+            youtubeId: "0dxsxFtAznc",
+            duration: "03:12"
         },
         {
             id: 9,
-            title: "Git & GitHub Tutorial",
-            description: "Complete Git and GitHub tutorial for beginners",
-            thumbnail: "https://img.youtube.com/vi/RGOj5yH7evk/maxresdefault.jpg",
-            youtubeId: "RGOj5yH7evk",
-            duration: "46:18"
+            title: "Boom Sprayer in Field Pesticide Application",
+            description: "Boom sprayer ensuring uniform pesticide spraying across the farm.",
+            thumbnail: "https://i.ytimg.com/vi/4g2J4Fxv_u0/hqdefault.jpg",
+            youtubeId: "4g2J4Fxv_u0",
+            duration: "04:00"
         },
         {
             id: 10,
-            title: "Deploying Next.js Apps",
-            description: "How to deploy Next.js applications to production",
-            thumbnail: "https://img.youtube.com/vi/ek7jKbHezyo/maxresdefault.jpg",
-            youtubeId: "ek7jKbHezyo",
-            duration: "22:09"
-        }
+            title: "Knapsack Sprayer Farmer Field Spray",
+            description: "Knapsack sprayer used in small farming for targeted spray applications.",
+            thumbnail: "https://i.ytimg.com/vi/0QH3C0pyY8E/hqdefault.jpg",
+            youtubeId: "0QH3C0pyY8E",
+            duration: "03:05"
+        },
+        {
+            id: 11,
+            title: "Rotavator Work in Wheat Field | Tractor Rotavator",
+            description: "Rotavator used for seedbed preparation in Indian farms.",
+            thumbnail: "https://i.ytimg.com/vi/7YIeiT7BqXo/hqdefault.jpg",
+            youtubeId: "vYElfxvvKBY",
+            duration: "05:01"
+        },
     ]
 };
