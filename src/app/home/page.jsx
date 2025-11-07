@@ -104,7 +104,7 @@ const Home = () => {
         },
     };
 
-    const topics = ['All', 'Videos', 'Images'];
+    const topics = ['Images', 'Videos'];
 
     const freshCategory = [
         {
@@ -139,8 +139,8 @@ const Home = () => {
         },
         {
             name: 'Land Leveler',
-            image: '/assets/img/ctg_icon5.png',
-            count: 6,
+            image: '/assets/land/l-02.webp',
+            count: 5,
         },
     ];
 
@@ -153,27 +153,42 @@ const Home = () => {
                             renderToStaticMarkup(<AiOutlineLeft />),
                             renderToStaticMarkup(<AiOutlineRight />),
                         ]}>
+                        {/* <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/hero/h-06.jpg" alt="banner3" />
+                        </div> */}
+                        <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/hero/h-07.jpg" alt="banner3" />
+                        </div>
                         <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/equipment/premium_photo-1664300969063-b274f727fcad.avif" alt="banner3" />
+                        </div>
+                        <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/hero/h-01.png" alt="banner3" />
                         </div>
                         <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/equipment/premium_photo-1661818380392-eff80caa5d91.avif" alt="banner3" />
                         </div>
                         <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/hero/h-03.png" alt="banner3" />
+                        </div>
+                        {/* <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/equipment/Screenshot from 2025-10-30 09-26-30.png" alt="banner3" />
-                        </div>
-                        <div className="owlItems">
+                        </div> */}
+                        {/* <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/banners/banner_machine1.webp" alt="banner1" />
-                        </div>
-                        <div className="owlItems">
+                        </div> */}
+                        {/* <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/banners/banner_machine2.webp" alt="banner2" />
-                        </div>
-                        <div className="owlItems">
+                        </div> */}
+                        {/* <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/img/banners/banner_machine3.webp" alt="banner3" />
-                        </div>
-                        <div className="owlItems">
+                        </div> */}
+                        {/* <div className="owlItems">
                             <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/cultivator/c-011.webp" alt="banner3" />
                         </div>
+                        <div className="owlItems">
+                            <img className="min-h-[600px] h-[600px] object-cover object-center" src="/assets/hero/h-02.png" alt="banner3" />
+                        </div> */}
                     </OwlCarousel>
                 </section>
 
@@ -1229,19 +1244,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/plumb/p-04.jpg" />
+                                                            <img src="assets/land/l-01.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> Hard / Medium soil </span>
+                                                                <span> 5 to 8 Feet </span>
                                                             </div>
                                                             <div className="rating_wrap ">
                                                                 <span className="shop_review_text">25 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Mould Board Plough</Link>
+                                                                    <Link href="#">Reversible Land Leveler</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1254,19 +1269,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/plumb/p-03.jpg" />
+                                                            <img src="assets/land/l-03.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> Black cotton / Rocky </span>
+                                                                <span> 6 to 9 Feet </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">75 - 60 HP tractors</span>
+                                                                <span className="shop_review_text">35 - 75 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Disc Plough</Link>
+                                                                    <Link href="#">Heavy Duty Box Land Leveler</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1279,19 +1294,44 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/plumb/p-05.jpeg" />
+                                                            <img src="assets/land/l-04.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> All soils </span>
+                                                                <span> 6 to 12 Feet </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">50 - 90 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Laser Guided Land Leveler</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/land/l-05.png" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> 6 to 10 Feet </span>
                                                             </div>
                                                             <div className="rating_wrap ">
                                                                 <span className="shop_review_text">40 - 90 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Reversible Plough</Link>
+                                                                    <Link href="#">Hydraulic Land Leveler</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1304,69 +1344,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/plumb/p-06.jpeg" />
+                                                            <img src="assets/land/l-06.jpg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> Dry & compact soil </span>
+                                                                <span> 5 to 9 Feet </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">45 - 90 HP tractors</span>
+                                                                <span className="shop_review_text">30 - 80 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Chisel / Subsoiler</Link>
-                                                                </h3>
-                                                                <div className="product_price">
-                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
-                                                                    {/* <del>$65.00</del> */}
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="w-full sm:w-[calc(50%-12px)]">
-                                                    <div className="prdc_ctg_product_content">
-                                                        <div className="prdc_ctg_product_img">
-                                                            <img src="assets/plumb/p-07.jpeg" />
-                                                        </div>
-
-                                                        <div className="prdc_ctg_product_text">
-                                                            <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> Loose to medium soil </span>
-                                                            </div>
-                                                            <div className="rating_wrap ">
-                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
-                                                            </div>
-                                                            <div className="product_content">
-                                                                <h3 className="product_title">
-                                                                    <Link href="#">Rotary / Power Plough</Link>
-                                                                </h3>
-                                                                <div className="product_price">
-                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
-                                                                    {/* <del>$65.00</del> */}
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="w-full sm:w-[calc(50%-12px)]">
-                                                    <div className="prdc_ctg_product_content">
-                                                        <div className="prdc_ctg_product_img">
-                                                            <img src="assets/plumb/p-08.png" />
-                                                        </div>
-
-                                                        <div className="prdc_ctg_product_text">
-                                                            <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> Soft soil </span>
-                                                            </div>
-                                                            <div className="rating_wrap ">
-                                                                <span className="shop_review_text">No tractor</span>
-                                                            </div>
-                                                            <div className="product_content">
-                                                                <h3 className="product_title">
-                                                                    <Link href="#">Bullock Plough</Link>
+                                                                    <Link href="#">Scraper Land Leveler</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1392,7 +1382,7 @@ const Home = () => {
                                 <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
                                 <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
                                 <span className="text-[8px] p-[0rem_0.1rem]"><FaRegCircle /></span>
-                                <span className="text-[12px] font-medium">FRESH FROM OUR FARM</span>
+                                {/* <span className="text-[12px] font-medium">FRESH FROM OUR FARM</span> */}
                             </div>
                             <h2 className="text-[26px] lg:text-[40px] font-bold mb-[.5rem] philosopher-bold text-center lg:text-left">Our Services</h2>
                         </div>
@@ -1414,17 +1404,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product1.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product2.png" className="pic-2" alt="" />
+                                                        <img src="/assets/rotaviter/r-08.webp" className="pic-1" alt="" />
+                                                        <img src="/assets/rotaviter/r-08.webp" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats">3 - 4 feet widths</span></li>
+                                                        <li><span className="product_badge badge_discount">15-30 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -1433,19 +1423,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Rotavator</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1455,17 +1445,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product2.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product3.png" className="pic-2" alt="" />
+                                                        <img src="/assets/cultivator/c-04.png" className="pic-1" alt="" />
+                                                        <img src="/assets/cultivator/c-04.png" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats">Breaking up tough soil</span></li>
+                                                        <li><span className="product_badge badge_discount">30-90 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -1474,19 +1464,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Cultivator</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1496,17 +1486,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product3.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product4.png" className="pic-2" alt="" />
+                                                        <img src="/assets/plumb/p-05.jpeg" className="pic-1" alt="" />
+                                                        <img src="/assets/plumb/p-05.jpeg" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats"> All type soil</span></li>
+                                                        <li><span className="product_badge badge_discount">40-90 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -1515,19 +1505,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Plough</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1537,17 +1527,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product4.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product5.png" className="pic-2" alt="" />
+                                                        <img src="/assets/seed/s-01.jpeg" className="pic-1" alt="" />
+                                                        <img src="/assets/seed/s-01.jpeg" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats"> Row spacing 20-25 cm</span></li>
+                                                        <li><span className="product_badge badge_discount">25-55 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -1556,61 +1546,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Seed Fertilizer Drill</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product5.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product6.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1620,16 +1568,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product6.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product7.png" className="pic-2" alt="" />
+                                                        <img src="/assets/land/l-01.webp" className="pic-1" alt="" />
+                                                        <img src="/assets/land/l-01.webp" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">5 - 8 feet widths</span></li>
+                                                        <li><span className="product_badge badge_discount">25-60 HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1639,19 +1583,18 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Reversible Leveler</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1661,16 +1604,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product7.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product8.png" className="pic-2" alt="" />
+                                                        <img src="/assets/disc/d-08.png" className="pic-1" alt="" />
+                                                        <img src="/assets/disc/d-08.png" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">No.of disc 16-36</span></li>
+                                                        <li><span className="product_badge badge_discount">45-120 HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1680,19 +1619,18 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Tandem Disc Harrow</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1702,16 +1640,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product8.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product11.png" className="pic-2" alt="" />
+                                                        <img src="/assets/rotaviter/r-05.png" className="pic-1" alt="" />
+                                                        <img src="/assets/rotaviter/r-05.png" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">5 - 6 feet widths</span></li>
+                                                        <li><span className="product_badge badge_discount">35-50 HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1721,19 +1655,54 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Standard Rotavator</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
+                                        <div className="product_layout_1">
+                                            <div className="product_layout_content">
+                                                <div className="product_image_wrap">
+                                                    <Link href='#' className="product_image">
+                                                        <img src="/assets/disc/d-10.jpeg" className="pic-1" alt="" />
+                                                        <img src="/assets/disc/d-10.jpeg" className="pic-2" alt="" />
+                                                    </Link>
+                                                    <ul className="product_badge_group">
+                                                        <li><span className="product_badge badge_meats">No.of disc 24 - 28</span></li>
+                                                        <li><span className="product_badge badge_discount">80-150+ HP</span></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div className="rating_wrap ">
+                                                    <ul className="rating_star ul_li">
+                                                        <li className="active"><FaStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                    </ul>
+                                                    <span className="shop_review_text">( 5.0 )</span>
+                                                </div>
+
+                                                <div className="product_content">
+                                                    <h3 className="product_title">
+                                                        <Link href="#">Hydraulic Foldable</Link>
+                                                    </h3>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1748,16 +1717,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product1.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product2.png" className="pic-2" alt="" />
+                                                        <img src="/assets/disc/d-10.jpeg" className="pic-1" alt="" />
+                                                        <img src="/assets/disc/d-10.jpeg" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">No.of disc 24 - 28</span></li>
+                                                        <li><span className="product_badge badge_discount">80-150+ HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1767,19 +1732,18 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Hydraulic Foldable</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1789,16 +1753,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product2.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product3.png" className="pic-2" alt="" />
+                                                        <img src="/assets/disc/d-08.png" className="pic-1" alt="" />
+                                                        <img src="/assets/disc/d-08.png" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">No.of disc 16-36</span></li>
+                                                        <li><span className="product_badge badge_discount">45-120 HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1808,19 +1768,18 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Tandem Disc Harrow</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1830,16 +1789,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product3.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product4.png" className="pic-2" alt="" />
+                                                        <img src="/assets/land/l-01.webp" className="pic-1" alt="" />
+                                                        <img src="/assets/land/l-01.webp" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">5 - 8 feet widths</span></li>
+                                                        <li><span className="product_badge badge_discount">25-60 HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1849,19 +1804,18 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Reversible Leveler</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1871,16 +1825,12 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product4.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product5.png" className="pic-2" alt="" />
+                                                        <img src="/assets/rotaviter/r-05.png" className="pic-1" alt="" />
+                                                        <img src="/assets/rotaviter/r-05.png" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
+                                                        <li><span className="product_badge badge_meats">5 - 6 feet widths</span></li>
+                                                        <li><span className="product_badge badge_discount">35-50 HP</span></li>
                                                     </ul>
                                                 </div>
 
@@ -1890,61 +1840,18 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Standard Rotavator</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product5.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product6.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1954,17 +1861,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product6.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product7.png" className="pic-2" alt="" />
+                                                        <img src="/assets/cultivator/c-04.png" className="pic-1" alt="" />
+                                                        <img src="/assets/cultivator/c-04.png" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats">Breaking up tough soil</span></li>
+                                                        <li><span className="product_badge badge_discount">30-90 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -1973,19 +1880,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Cultivator</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -1995,17 +1902,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product7.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product8.png" className="pic-2" alt="" />
+                                                        <img src="/assets/rotaviter/r-08.webp" className="pic-1" alt="" />
+                                                        <img src="/assets/rotaviter/r-08.webp" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats">3 - 4 feet widths</span></li>
+                                                        <li><span className="product_badge badge_discount">15-30 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -2014,19 +1921,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Rotavator</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -2036,17 +1943,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product8.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product11.png" className="pic-2" alt="" />
+                                                        <img src="/assets/seed/s-01.jpeg" className="pic-1" alt="" />
+                                                        <img src="/assets/seed/s-01.jpeg" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats"> Row spacing 20-25 cm</span></li>
+                                                        <li><span className="product_badge badge_discount">25-55 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -2055,65 +1962,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Seed Fertilizer Drill</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="flex flex-wrap gap-6">
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product1.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product2.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -2123,17 +1984,17 @@ const Home = () => {
                                             <div className="product_layout_content">
                                                 <div className="product_image_wrap">
                                                     <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product2.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product3.png" className="pic-2" alt="" />
+                                                        <img src="/assets/plumb/p-05.jpeg" className="pic-1" alt="" />
+                                                        <img src="/assets/plumb/p-05.jpeg" className="pic-2" alt="" />
                                                     </Link>
                                                     <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
+                                                        <li><span className="product_badge badge_meats"> All type soil</span></li>
+                                                        <li><span className="product_badge badge_discount">40-90 HP</span></li>
                                                     </ul>
-                                                    <ul className="product_action_btns">
+                                                    {/* <ul className="product_action_btns">
                                                         <li><Link href='#'><FaSearch /></Link></li>
                                                         <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </div>
 
                                                 <div className="rating_wrap ">
@@ -2142,266 +2003,19 @@ const Home = () => {
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
                                                         <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
+                                                        <li className="active"><FaStar /></li>
+                                                        {/* <li className=""><FaRegStar /></li> */}
                                                     </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
+                                                    <span className="shop_review_text">( 5.0 )</span>
                                                 </div>
 
                                                 <div className="product_content">
                                                     <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
+                                                        <Link href="#">Plough</Link>
                                                     </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product3.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product4.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product4.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product5.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product5.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product6.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product6.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product7.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product7.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product8.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="w-[100%] sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-18px)] xl:w-[calc(25%-18px)]">
-                                        <div className="product_layout_1">
-                                            <div className="product_layout_content">
-                                                <div className="product_image_wrap">
-                                                    <Link href='#' className="product_image">
-                                                        <img src="/assets/img/product8.png" className="pic-1" alt="" />
-                                                        <img src="/assets/img/product11.png" className="pic-2" alt="" />
-                                                    </Link>
-                                                    <ul className="product_badge_group">
-                                                        <li><span className="product_badge badge_meats">Meats</span></li>
-                                                        <li><span className="product_badge badge_discount">-27%</span></li>
-                                                    </ul>
-                                                    <ul className="product_action_btns">
-                                                        <li><Link href='#'><FaSearch /></Link></li>
-                                                        <li><Link href='#'><FaShoppingBag /></Link></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="rating_wrap ">
-                                                    <ul className="rating_star ul_li">
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className="active"><FaStar /></li>
-                                                        <li className=""><FaRegStar /></li>
-                                                    </ul>
-                                                    <span className="shop_review_text">( 4.0 )</span>
-                                                </div>
-
-                                                <div className="product_content">
-                                                    <h3 className="product_title">
-                                                        <Link href="#">Organic Cabbage</Link>
-                                                    </h3>
-                                                    <div className="product_price">
-                                                        <span className="sale_price pe-1">$50.00</span>
-                                                        <del>$65.00</del>
-                                                    </div>
+                                                    {/* <div className="product_price">
+                                                        <span className="sale_price pe-1"> Contact Dealer (₹)</span>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

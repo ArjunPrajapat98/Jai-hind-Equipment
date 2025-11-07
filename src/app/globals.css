@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product_badge_group .badge_meats {
-  @apply text-[#6faa27] text-[0.625rem] bg-[#f2f7f3] font-medium px-2 py-[0.2rem] left-[25px] top-[25px] rounded-[50rem] absolute;
+  @apply text-[#252020] text-[0.625rem] bg-[#e1e8fc] font-medium px-2 py-[0.2rem] left-[25px] top-[25px] rounded-[50rem] absolute;
 }
 
 .product_badge_group .badge_discount {
