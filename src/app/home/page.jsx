@@ -129,14 +129,19 @@ const Home = () => {
         },
         {
             name: 'Disc Harrow',
-            image: '/assets/img/ctg_icon5.png',
+            image: '/assets/disc/d-02.jpeg',
             count: 6,
         },
         {
-            name: 'Power Weeder',
+            name: 'Boom Sprayer',
+            image: '/assets/sprey/s-01.jpeg',
+            count: 6,
+        },
+        {
+            name: 'Land Leveler',
             image: '/assets/img/ctg_icon5.png',
             count: 6,
-        }
+        },
     ];
 
     return (
@@ -872,7 +877,7 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-06.jpeg" />
+                                                            <img src="assets/seed/s-08.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
@@ -906,19 +911,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-08.webp" />
+                                                            <img src="assets/disc/d-03.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 3 - 4 feet widths </span>
+                                                                <span> No. of Discs 12-36 </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">15 - 30 HP tractors</span>
+                                                                <span className="shop_review_text">25 - 75 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Mini Rotavator</Link>
+                                                                    <Link href="#">Trailed Disc Harrow</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -931,19 +936,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-05.png" />
+                                                            <img src="assets/disc/d-06.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 5 - 6 feet widths </span>
+                                                                <span> No. of Discs 12-24 </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">35 - 50 HP tractors</span>
+                                                                <span className="shop_review_text">30 - 60 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Standard Rotavator</Link>
+                                                                    <Link href="#">Mounted (3-Point Linkage) Disc</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -956,19 +961,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-02.jpg" />
+                                                            <img src="assets/disc/d-07.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 6 - 8 ft widths </span>
+                                                                <span> No. of Discs 12-28 </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">70-75 HP tractors</span>
+                                                                <span className="shop_review_text">40 - 110 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Heavy Rotavator</Link>
+                                                                    <Link href="#">Offset Disc Harrow</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -981,19 +986,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-09.png" />
+                                                            <img src="assets/disc/d-08.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 7 - 8 feet widths </span>
+                                                                <span> No. of Discs 16-36 </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">45-60 HP tractors</span>
+                                                                <span className="shop_review_text">45 - 120 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Seeder Rotavator</Link>
+                                                                    <Link href="#">Tandem Disc Harrow</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1006,19 +1011,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-11.png" />
+                                                            <img src="assets/disc/d-09.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 6 - 9 feet widths </span>
+                                                                <span> No. of Discs 16-40 </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">70 - 120 HP tractors</span>
+                                                                <span className="shop_review_text">70 - 150 HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Harrow Rotavator</Link>
+                                                                    <Link href="#">Trailed Disc Harrow</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1031,19 +1036,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-06.jpeg" />
+                                                            <img src="assets/disc/d-10.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 6 - 8 feet widths </span>
+                                                                <span> No. of Discs 24-48 </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">45 - 65 HP tractors</span>
+                                                                <span className="shop_review_text">80 - 150+ HP tractors</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Reversible Rotavator</Link>
+                                                                    <Link href="#">Hydraulic Foldable</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1065,19 +1070,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-08.webp" />
+                                                            <img src="assets/sprey/s-01.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 3 - 4 feet widths </span>
+                                                                <span> Capacity 200 - 1200 Ltr </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">15 - 30 HP tractors</span>
+                                                                <span className="shop_review_text">Boom Length 10 - 20 Meters</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Mini Rotavator</Link>
+                                                                    <Link href="#">Mounted Sprayer</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1090,19 +1095,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-05.png" />
+                                                            <img src="assets/sprey/s-03.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 5 - 6 feet widths </span>
+                                                                <span> Capacity 500 - 3000 Ltr </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">35 - 50 HP tractors</span>
+                                                                <span className="shop_review_text">Boom Length 12 - 24 Meters</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Standard Rotavator</Link>
+                                                                    <Link href="#">Trailed Sprayer</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1115,19 +1120,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-02.jpg" />
+                                                            <img src="assets/sprey/s-04.webp" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 6 - 8 ft widths </span>
+                                                                <span> Capacity 500 - 2000 Ltr </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">70-75 HP tractors</span>
+                                                                <span className="shop_review_text">Boom Length 12 - 30 Meters</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Heavy Rotavator</Link>
+                                                                    <Link href="#">Self Propelled Sprayer</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1140,19 +1145,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-09.png" />
+                                                            <img src="assets/sprey/s-06.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 7 - 8 feet widths </span>
+                                                                <span> Capacity 200 - 1200 Ltr </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">45-60 HP tractors</span>
+                                                                <span className="shop_review_text">Boom Length 10 - 20 Meters</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Seeder Rotavator</Link>
+                                                                    <Link href="#">Tractor Sprayer</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1165,19 +1170,19 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-11.png" />
+                                                            <img src="assets/sprey/s-08.png" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 6 - 9 feet widths </span>
+                                                                <span> Capacity 200 - 1200 Ltr </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">70 - 120 HP tractors</span>
+                                                                <span className="shop_review_text">Boom Length 10 - 20 Meters</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Harrow Rotavator</Link>
+                                                                    <Link href="#">Mounted Boom</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
@@ -1190,19 +1195,178 @@ const Home = () => {
                                                 <div className="w-full sm:w-[calc(50%-12px)]">
                                                     <div className="prdc_ctg_product_content">
                                                         <div className="prdc_ctg_product_img">
-                                                            <img src="assets/rotaviter/r-06.jpeg" />
+                                                            <img src="assets/sprey/s-09.jpeg" />
                                                         </div>
 
                                                         <div className="prdc_ctg_product_text">
                                                             <div className="prdc_ctg_product_badge mb-2">
-                                                                <span> 6 - 8 feet widths </span>
+                                                                <span> Capacity 200 - 1200 Ltr </span>
                                                             </div>
                                                             <div className="rating_wrap ">
-                                                                <span className="shop_review_text">45 - 65 HP tractors</span>
+                                                                <span className="shop_review_text">Boom Length 10 - 20 Meters</span>
                                                             </div>
                                                             <div className="product_content">
                                                                 <h3 className="product_title">
-                                                                    <Link href="#">Reversible Rotavator</Link>
+                                                                    <Link href="#">Propelled Boom</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabPanel>
+
+                                <TabPanel>
+                                    <div className="prdc_ctg_product_wrap">
+                                        <div className="prdc_ctg_inner_product bg-white">
+                                            <div className="flex flex-wrap gap-x-6">
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-04.jpg" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Hard / Medium soil </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Mould Board Plough</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-03.jpg" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Black cotton / Rocky </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">75 - 60 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Disc Plough</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-05.jpeg" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> All soils </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">40 - 90 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Reversible Plough</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-06.jpeg" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Dry & compact soil </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">45 - 90 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Chisel / Subsoiler</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-07.jpeg" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Loose to medium soil </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">25 - 60 HP tractors</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Rotary / Power Plough</Link>
+                                                                </h3>
+                                                                <div className="product_price">
+                                                                    <span className="sale_price pe-1"> View Price (₹)</span>
+                                                                    {/* <del>$65.00</del> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full sm:w-[calc(50%-12px)]">
+                                                    <div className="prdc_ctg_product_content">
+                                                        <div className="prdc_ctg_product_img">
+                                                            <img src="assets/plumb/p-08.png" />
+                                                        </div>
+
+                                                        <div className="prdc_ctg_product_text">
+                                                            <div className="prdc_ctg_product_badge mb-2">
+                                                                <span> Soft soil </span>
+                                                            </div>
+                                                            <div className="rating_wrap ">
+                                                                <span className="shop_review_text">No tractor</span>
+                                                            </div>
+                                                            <div className="product_content">
+                                                                <h3 className="product_title">
+                                                                    <Link href="#">Bullock Plough</Link>
                                                                 </h3>
                                                                 <div className="product_price">
                                                                     <span className="sale_price pe-1"> View Price (₹)</span>
