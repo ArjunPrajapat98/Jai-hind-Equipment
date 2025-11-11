@@ -1886,14 +1886,21 @@ const Home = () => {
                 </section>
             </main>
             <Link href="/contacts">
-                <div className="enquiry_now">
-                    <p className="flex btn theme-font-primary">
-                        <span className="text-[#25D366] text-theme-lg flex mt-0.5">
-                            <FaWhatsapp />
-                        </span>
-                        Enquiry Now
+                <div class="enquiry_now">
+                    <p className="flex btn">
+                        <p
+                            href="#"
+                            class="playbtn relative inline-block px-4 py-2 text-white overflow-hidden transition duration-500 hover:bg-white hover:text-black hover:shadow-[0_0_5px_#fff,0_0_25px_#fff,0_0_50px_#fff,0_0_200px_#fff]"
+                        >
+                            Enquiry Now
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </p>
                     </p>
                 </div>
+
             </Link>
         </>
     )

@@ -5,7 +5,6 @@ import { FaYoutube } from "react-icons/fa6";
 import { FaLocationDot, FaSquareXTwitter } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
 
-
 const Footer = () => {
   return (
     <>

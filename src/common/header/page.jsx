@@ -42,7 +42,7 @@ const Header = () => {
             <header className="__stickedHeader">
                 <div className="__mainContainer flex items-center justify-between py-3 min-h-[65px]">
                     <a href='/'>
-                        <span className="text-lg font-semibold text-[#0066ff]">
+                        <span className="text-theme-lg font-semibold theme-primary theme-font-heading">
                             Jai Hind Equipment
                         </span>
                     </a>
@@ -54,7 +54,7 @@ const Header = () => {
                                 <Link
                                     href="/"
                                     onClick={(e) => handleLinkClick(e, "#home")}
-                                    className={`__navLinks ${activeSection === "home" ? "text-[#62a403]" : ""
+                                    className={`__navLinks theme-font-primary ${activeSection === "home" ? "theme-primary" : "theme-text-secondary"
                                         }`}
                                 >
                                     Home
@@ -64,7 +64,7 @@ const Header = () => {
                                 <Link
                                     href="/"
                                     onClick={(e) => handleLinkClick(e, "#ourProduct")}
-                                    className={`__navLinks ${activeSection === "ourProduct" ? "text-[#62a403]" : ""
+                                    className={`__navLinks theme-font-primary ${activeSection === "ourProduct" ? "theme-primary" : "theme-text-secondary"
                                         }`}
                                 >
                                     Products
@@ -74,7 +74,7 @@ const Header = () => {
                                 <Link
                                     href="/"
                                     onClick={(e) => handleLinkClick(e, "#ourService")}
-                                    className={`__navLinks ${activeSection === "ourService" ? "text-[#62a403]" : ""
+                                    className={`__navLinks theme-font-primary ${activeSection === "ourService" ? "theme-primary" : "theme-text-secondary"
                                         }`}
                                 >
                                     Services
@@ -83,7 +83,7 @@ const Header = () => {
                             {/* <li className="px-1 lg:px-2">
                                 <Link
                                     href="/about"
-                                    className={`__navLinks ${pathname === "/about" ? "text-[#62a403]" : ""
+                                    className={`__navLinks theme-font-primary ${pathname === "/about" ? "theme-primary" : "theme-text-secondary"
                                         }`}
                                 >
                                     About Us
@@ -92,7 +92,7 @@ const Header = () => {
                             <li className="px-1 lg:px-2">
                                 <Link
                                     href="/contacts"
-                                    className={`__navLinks ${pathname === "/contacts" ? "text-[#62a403]" : ""
+                                    className={`__navLinks theme-font-primary ${pathname === "/contacts" ? "theme-primary" : "theme-text-secondary"
                                         }`}
                                 >
                                     Enquiry
@@ -103,13 +103,22 @@ const Header = () => {
 
                     {/* WhatsApp / Call */}
                     <div className="hidden md:block">
-                        <Link href="tel:8305033403" className="flex items-center gap-1">
-                            <span className="text-[#25D366] text-lg flex mb-0.5">
-                                <FaWhatsapp />
-                            </span>
-                            <span className="text-base leading-4">8305033403</span>
+                        <Link
+                            href="/contacts"
+                            className={`__navLinks theme-font-primary ${pathname === "/contacts" ? "theme-primary" : "theme-text-secondary"
+                                }`}
+                        >
+                            Contact Us
                         </Link>
                     </div>
+                    {/* <div className="hidden md:block">
+                        <Link href="tel:8305033403" className="flex items-center gap-1 theme-font-primary">
+                            <span className="text-[#25D366] text-theme-lg flex mb-0.5">
+                                <FaWhatsapp />
+                            </span>
+                            <span className="text-theme-base leading-4 theme-text-secondary">8305033403</span>
+                        </Link>
+                    </div> */}
 
                     {/* Mobile Menu */}
                     <div className="block md:hidden">
@@ -131,7 +140,7 @@ const Header = () => {
                                         <div className="__menuBlur"></div>
                                     </div>
                                     <div className="md:hidden mb-5">
-                                        <span className="text-lg font-semibold text-[#0066ff]">
+                                        <span className="text-theme-lg font-semibold theme-primary theme-font-heading">
                                             Jai Hind Equipment
                                         </span>
                                     </div>
@@ -139,7 +148,7 @@ const Header = () => {
                                         <Link
                                             href="/"
                                             onClick={(e) => handleLinkClick(e, "#home")}
-                                            className={`text-[16px] font-normal ${activeSection === "home" ? "text-[#62a403]" : ""
+                                            className={`text-theme-base font-normal theme-font-primary ${activeSection === "home" ? "theme-primary" : "theme-text-secondary"
                                                 }`}
                                         >
                                             Home
@@ -149,7 +158,7 @@ const Header = () => {
                                         <Link
                                             href="/#ourProduct"
                                             onClick={(e) => handleLinkClick(e, "#ourProduct")}
-                                            className={`text-[16px] font-normal ${activeSection === "ourProduct" ? "text-[#62a403]" : ""
+                                            className={`text-theme-base font-normal theme-font-primary ${activeSection === "ourProduct" ? "theme-primary" : "theme-text-secondary"
                                                 }`}
                                         >
                                             Products
@@ -159,7 +168,7 @@ const Header = () => {
                                         <Link
                                             href="/#ourService"
                                             onClick={(e) => handleLinkClick(e, "#ourService")}
-                                            className={`text-[16px] font-normal ${activeSection === "ourService" ? "text-[#62a403]" : ""
+                                            className={`text-theme-base font-normal theme-font-primary ${activeSection === "ourService" ? "theme-primary" : "theme-text-secondary"
                                                 }`}
                                         >
                                             Services
@@ -168,7 +177,7 @@ const Header = () => {
                                     {/* <li>
                                         <Link
                                             href="/about"
-                                            className={`text-[16px] font-normal ${activeSection === "about" ? "text-[#62a403]" : ""
+                                            className={`text-theme-base font-normal theme-font-primary ${activeSection === "about" ? "theme-primary" : "theme-text-secondary"
                                                 }`}
                                         >
                                             About Us
@@ -177,7 +186,7 @@ const Header = () => {
                                     <li>
                                         <Link
                                             href="/contacts"
-                                            className={`text-[16px] font-normal ${activeSection === "enquiry" ? "text-[#62a403]" : ""
+                                            className={`text-theme-base font-normal theme-font-primary ${activeSection === "enquiry" ? "theme-primary" : "theme-text-secondary"
                                                 }`}
                                         >
                                             Enquiry
