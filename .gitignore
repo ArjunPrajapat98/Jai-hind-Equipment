@@ -6,6 +6,7 @@
 .pnp.js
 
 node_modules
+package-lock.json
 
 .vscode
 /.vscode
@@ -19,6 +20,9 @@ node_modules
 
 build
 .next
+
+next
+out
 
 # misc
 
