@@ -1,6 +1,10 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+
+  experimental: {
+    turbo: false,
+  },
+
   webpack: (config, { webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({
