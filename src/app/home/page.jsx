@@ -13,6 +13,7 @@ import { CommonTabs } from "@/common/commonTabs";
 import { Tab, TabPanel } from "react-tabs";
 import { YouTubeEmbed } from "@/common/youTube_embed";
 import { constant } from "@/constant";
+import { Toaster } from "react-hot-toast";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -146,6 +147,10 @@ const Home = () => {
 
     return (
         <>
+            <Toaster
+                position="top-center"
+                reverseOrder={false}
+            />
             <main>
                 <section id='home'>
                     <OwlCarousel responsive={bannerSlides} className="bannerSlider" center loop autoplay nav={true} dots={false} animateOut="fadeOut" animateIn="fadeIn"

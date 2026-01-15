@@ -1,11 +1,64 @@
+"use client"
+
 import { CommonInput } from '@/common/CommonInput'
 import { CommonTextArea } from '@/common/CommonTextArea'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contacts = () => {
+
+  const [loading, setLoading] = useState(false);
+  const [formValue, setFormValue] = useState({
+    "fullName": '',
+    "email": '',
+    "phone": '',
+    "message": ''
+  })
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setLoading(true);
+    try {
+      let formData = {
+        "Full Name": formValue?.fullName,
+        "Email": formValue?.email,
+        "Phone Number": formValue?.phone,
+        "Message": formValue?.message,
+      }
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbyOuws57pNMgzk8TELvjRaVo-8alXyeYk-hBtQgAwkrWBOE0dtPrNKLczlKVlDJfnUyUw/exec",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+          mode: 'no-cors'
+        }
+      );
+
+      setTimeout(() => {
+        toast('Form submitted successfully');
+        setLoading(false);
+      }, 2000);
+
+      setFormValue((s) => ({
+        ...s,
+        fullName: '',
+        email: '',
+        phone: '',
+        message: ''
+      }));
+
+    } catch (error) {
+      setLoading(true);
+    }
+  };
+
   return (
     <>
+      <Toaster />
       <div className="__mainContainer">
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
           <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -152,7 +205,6 @@ const Contacts = () => {
                   </div>
 
                   <form className="space-y-6">
-                    {/* Product/Service Selection */}
                     <div>
                       <label htmlFor="product-service" className="block text-theme-sm font-semibold theme-text-secondary mb-2 theme-font-primary">
                         Product / Service Looking for *
@@ -172,56 +224,65 @@ const Contacts = () => {
                       </select>
                     </div>
 
-                    {/* Name */}
                     <div>
                       <CommonInput
                         type="text"
-                        label="Name"
+                        label="Full Name"
                         starRed={true}
-                        placeholder="Your full name"
+                        placeholder="Full Name"
+                        name='fullName'
+                        value={formValue.fullName}
+                        onChange={(e) => setFormValue((s) => ({ ...s, fullName: e.target.value }))}
                       />
                     </div>
 
-                    {/* Email */}
                     <div>
                       <CommonInput
                         type="email"
                         label="Email"
                         starRed={true}
                         placeholder="your.email@example.com"
+                        name='email'
+                        value={formValue.email}
+                        onChange={(e) => setFormValue((s) => ({ ...s, email: e.target.value }))}
                       />
                     </div>
 
-                    {/* Mobile */}
                     <div>
                       <CommonInput
                         type="tel"
                         label="Mobile"
+                        name="phone"
                         starRed={true}
                         placeholder="Your mobile number"
+                        value={formValue.phone}
+                        onChange={(e) => setFormValue((s) => ({ ...s, phone: e.target.value }))}
                       />
                     </div>
 
-                    {/* Enquiry Details */}
                     <div>
                       <CommonTextArea
                         label="Enquiry Details"
                         placeholder="Please describe your requirement in detail..."
                         rows={4}
+                        name='message'
+                        value={formValue.message}
+                        onChange={(e) => setFormValue((s) => ({ ...s, message: e.target.value }))}
                       />
                     </div>
 
-                    {/* Buttons */}
                     <div className="flex space-x-4 pt-4">
                       <button
                         type="submit"
-                        className="flex-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 px-6 rounded-xl hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl font-semibold theme-font-primary"
+                        disabled={loading || !formValue.fullName || !formValue.phone || !formValue.email}
+                        onClick={(e) => handleSubmit(e)}
+                        className="cursor-pointer flex-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 px-6 rounded-xl hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl font-semibold theme-font-primary"
                       >
-                        Submit
+                        {loading ? 'Loading...' : 'Submit'}
                       </button>
                       <button
                         type="button"
-                        className="flex-1 bg-gray-100 theme-text-secondary py-3 px-6 rounded-xl hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-all font-semibold border border-gray-300 theme-font-primary"
+                        className="cursor-pointer flex-1 bg-gray-100 theme-text-secondary py-3 px-6 rounded-xl hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-all font-semibold border border-gray-300 theme-font-primary"
                       >
                         Cancel
                       </button>
